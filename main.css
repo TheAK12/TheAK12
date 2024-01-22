@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+}
+
+nav {
+  height: 80px;
+  background-color: #2D3250;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  color: #fff;
+  font-size: 35px;
+}
+nav h1 a:hover {
+  color: #ffb6b6;
+  transition: 1000ms;
+  font-size: 32px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 120px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Space Mono", monospace;
+  color: #ffcaca;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+nav ul li a:hover {
+  color: #ff6666;
+  transition: 1000ms;
+  font-size: 22px;
+}/*# sourceMappingURL=main.css.map */

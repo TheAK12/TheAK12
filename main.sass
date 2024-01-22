@@ -1,0 +1,44 @@
+$link_size: 20px
+$link_color: #ffcaca
+$head-color: #fff
+$link_font: 'Space Mono', monospace
+$head_font: 'Pacifico', cursive
+$nav_color: #2D3250
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap')
+*
+  margin: 0
+nav
+  height: 80px
+  background-color: $nav_color
+  display: flex
+  justify-content: space-between
+  align-items: center
+  h1
+    a
+      text-decoration: none
+      font-family: $head_font
+      color: $head-color
+      font-size: ($link_size+15)
+      &:hover
+        color: #ffb6b6
+        transition: 1000ms
+        font-size: 32px
+  ul
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    gap: 120px
+    li
+      list-style: none
+      a
+        text-decoration: none
+        font-family: $link_font
+        color: $link_color
+        font-size: $link_size
+        display: flex
+        align-items: center
+        &:hover
+          color: #ff6666
+          transition: 1000ms
+          font-size: 22px
